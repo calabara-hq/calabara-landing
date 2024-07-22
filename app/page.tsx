@@ -15,7 +15,7 @@ export default function Home() {
         </h2>
         <div className="flex flex-col gap-2 text-xl">
           <h2 className="">We are the founders & maintainers of</h2>
-          <Link href="https://uplink.wtf/" className="flex gap-2">
+          <Link target="_blank" href="https://uplink.wtf/" className="flex gap-2">
             <Image
               src="/uplink-logo.svg"
               width={15}
