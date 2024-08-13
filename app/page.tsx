@@ -15,7 +15,7 @@ export default function Home() {
         </h2>
         <div className="flex flex-col gap-2 text-xl">
           <h2 className="">We are the founders & maintainers of</h2>
-          <Link target="_blank" href="https://uplink.wtf/" className="flex gap-2">
+          <Link target="_blank" href="https://uplink.wtf/" className="flex gap-2 font-bold text-[#cc0595] hover:underline">
             <Image
               src="/uplink-logo.svg"
               width={15}
@@ -24,10 +24,10 @@ export default function Home() {
               className=""
             />
 
-            <p className="font-bold text-[#cc0595] hover:underline">Uplink</p>
+            <p className="">Uplink</p>
           </Link>
           <h2 className=""> and creators of the</h2>
-          <Link href="https://github.com/calabara-hq/transmissions" target="_blank" className=" text-[#cc0595] font-bold hover:underline">Transmissions Protocol</Link>
+          <Link href="https://www.transmissions.wtf" target="_blank" className=" text-[#5856d6] font-bold hover:underline">Transmissions Protocol</Link>
         </div>
         <hr className="border-t border-gray-300 my-4" />
 
@@ -38,8 +38,8 @@ export default function Home() {
           <div className="flex gap-4 ">
             <Image
               src="/nick-pfp.png"
-              width={50}
-              height={50}
+              width={300}
+              height={3000}
               alt="pfp"
               className="w-20 "
             />
@@ -58,8 +58,8 @@ export default function Home() {
           <div className="flex gap-4 ">
             <Image
               src="/josh-pfp.png"
-              width={50}
-              height={50}
+              width={300}
+              height={300}
               alt="pfp"
               className="w-20 "
             />
