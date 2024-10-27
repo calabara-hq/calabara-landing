@@ -32,7 +32,7 @@ export default function Home() {
         <hr className="border-t border-gray-300 my-4" />
 
         <h1 className="text-3xl">
-          Team
+          Contact
         </h1>
         <div className="flex flex-col justify-evenly gap-4">
           <div className="flex gap-4 ">
@@ -55,28 +55,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="flex gap-4 ">
-            <Image
-              src="/josh-pfp.png"
-              width={300}
-              height={300}
-              alt="pfp"
-              className="w-20 "
-            />
-            <div className="flex flex-col gap-1">
-              <p className="text-xl font-bold">
-                Josh Welsh
-              </p>
-              <a href="https://x.com/yungweez703" target="_blank" className="hover:underline">
-                <li>X</li>
-              </a>
-              <a href="https://warpcast.com/weez" target="_blank" className="hover:underline">
-                <li>warpcast</li>
-              </a>
-            </div>
-          </div>
         </div>
-        <hr className="border-t border-gray-300 my-4" />
       </div >
 
 
